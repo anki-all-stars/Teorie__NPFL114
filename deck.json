@@ -1,0 +1,386 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "bf2b5f60-7f48-11eb-8b63-38d5479d0148",
+    "deck_config_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": true,
+            "crowdanki_uuid": "51fd0716-67e9-11eb-a855-38d5479d0148",
+            "currentValue": 120,
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxLife": 120,
+            "maxTaken": 60,
+            "name": "[Intense] English C1",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 60,
+                "separate": true
+            },
+            "recover": 5,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-0659ac3b06d1cfd7184e5df773b3e47debd3b8f0.jpg",
+        "paste-0801e7d6a68c761b351444d49d82a9fd711bb2ab.jpg",
+        "paste-2a9e9a6b36ad3d9e45603cd1222e1990823dab60.jpg",
+        "paste-4a79a6d45c820547a502f158ea8546e499611ccb.jpg",
+        "paste-56e89f305ff527c92cc81bd2c8c21f3ab2912f17.jpg",
+        "paste-5760975384e2a6c713bc1b04f76ccf1ab15f92b5.jpg",
+        "paste-61763586665f0c0567900ebd542dcd000ecf5473.jpg",
+        "paste-882981d0a7d224d53b087132a7af317a5d8bbfe8.jpg",
+        "paste-95b2601a6981ba4ee6f940aa7c15aba27898d58d.jpg",
+        "paste-a273229976215e8aa64d80de755162a3e907c94e.jpg",
+        "paste-b400c4807fa4b556023a621a1a1a49dde109dace.jpg",
+        "paste-be51f30cb631c550c04b4a379724f44581cb55ef.jpg",
+        "paste-d1cd90d66ba71f4fd8e6bb8065600e7589a5a6b7.jpg",
+        "paste-d8fffaeaa34a4addf9d506eb3f36a5a6baf70626.jpg",
+        "paste-d9151904298099e89d1c9d0f48fa8c2a0a5f7ccd.jpg",
+        "paste-e1355861c5d23b52e2a8f523a09fa9da927b14bc.jpg",
+        "paste-e7748b341b8747482d48310069eff65d0b4e1538.jpg"
+    ],
+    "name": "Teorie::NPFL114",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n color: black;\n text-align: center;\n background-color: white;\n}\n\n.solution {\n text-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Question",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Solution",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "CVUT",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "npfl114-1-week"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{Question}}\n\n<hr id=answer>\n\n<div style=\"text-align: center;\">\n    <div style=\"display: inline-block; text-align: left;\">\n\t\t{{Solution}}\n    </div>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Question}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define a probability distribution",
+                "A probability distribution describes how likely are individual values a random variable can take.",
+                ""
+            ],
+            "guid": "tMnmoG:hDy",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the sum of all probabilities?",
+                "1",
+                ""
+            ],
+            "guid": "CA6mq<]2ZS",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate the probability of value x lies in the interval [a, b]?",
+                "<img src=\"paste-0659ac3b06d1cfd7184e5df773b3e47debd3b8f0.jpg\">",
+                ""
+            ],
+            "guid": "mbIbH;{ZQY",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define probabilitistic expectation for discrete space",
+                "<img src=\"paste-d1cd90d66ba71f4fd8e6bb8065600e7589a5a6b7.jpg\">",
+                ""
+            ],
+            "guid": "MqfSiKV.pU",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define probabilitistic expectation for continous space",
+                "<img src=\"paste-61763586665f0c0567900ebd542dcd000ecf5473.jpg\">",
+                ""
+            ],
+            "guid": "P_2?lf%vQB",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is probabilistic expectation linear? And what does it mean?",
+                "Yes.&nbsp;<img src=\"paste-4a79a6d45c820547a502f158ea8546e499611ccb.jpg\">",
+                ""
+            ],
+            "guid": "QNtaeS05ba",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define probabilistic variance",
+                "<img src=\"paste-95b2601a6981ba4ee6f940aa7c15aba27898d58d.jpg\">",
+                ""
+            ],
+            "guid": "b.1ogo3XzU",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does Bernoulli distribution look like?",
+                "<img src=\"paste-0801e7d6a68c761b351444d49d82a9fd711bb2ab.jpg\">",
+                ""
+            ],
+            "guid": "kwkIt;;w/#",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define Bernoulli's distribution properties",
+                "<img src=\"paste-e1355861c5d23b52e2a8f523a09fa9da927b14bc.jpg\">",
+                ""
+            ],
+            "guid": "dS_qBDeFU@",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define probabilistic self-information",
+                "<img src=\"paste-d8fffaeaa34a4addf9d506eb3f36a5a6baf70626.jpg\"><div><img src=\"paste-d9151904298099e89d1c9d0f48fa8c2a0a5f7ccd.jpg\"><br></div>",
+                ""
+            ],
+            "guid": "C>??@_Ccf*",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define entropy",
+                "<img src=\"paste-be51f30cb631c550c04b4a379724f44581cb55ef.jpg\">",
+                ""
+            ],
+            "guid": "gI(Pf0Ss#[",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate entropy in discrete space?",
+                "<img src=\"paste-e7748b341b8747482d48310069eff65d0b4e1538.jpg\">",
+                ""
+            ],
+            "guid": "hS<W2W`#kt",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate entropy in continuous space?",
+                "<img src=\"paste-b400c4807fa4b556023a621a1a1a49dde109dace.jpg\">",
+                ""
+            ],
+            "guid": "d6)vL)~gXm",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><img src=\"paste-5760975384e2a6c713bc1b04f76ccf1ab15f92b5.jpg\"></div><div><br></div><div>Which one of those distributions is high entropy and which is low entropy?</div>",
+                "The blue one is low entropy<div>The orange one is high entropy</div>",
+                ""
+            ],
+            "guid": "QuMxPR_C{X",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate cross entropy?",
+                "<img src=\"paste-56e89f305ff527c92cc81bd2c8c21f3ab2912f17.jpg\">",
+                ""
+            ],
+            "guid": "hXR]3zG;lK",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you calculate KL Divergence?",
+                "<img src=\"paste-882981d0a7d224d53b087132a7af317a5d8bbfe8.jpg\">",
+                ""
+            ],
+            "guid": "GU-0A.Z=%T",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "State the central limit theorem",
+                "<img src=\"paste-a273229976215e8aa64d80de755162a3e907c94e.jpg\">",
+                ""
+            ],
+            "guid": "p-:mA_|95D",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "State the principle of maximum entropy",
+                "<img src=\"paste-2a9e9a6b36ad3d9e45603cd1222e1990823dab60.jpg\">",
+                ""
+            ],
+            "guid": "k6b!w,LZJU",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "npfl114-1-week"
+            ]
+        }
+    ]
+}
