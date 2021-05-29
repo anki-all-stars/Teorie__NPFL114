@@ -93,7 +93,7 @@
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": true
                 },
                 {
                     "font": "Liberation Sans",
@@ -128,7 +128,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "zum-5-tyden"
+                "osy-7-tyden"
             ],
             "tmpls": [
                 {
